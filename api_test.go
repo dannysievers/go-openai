@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	. "github.com/dannysievers/go-openai"
+	"github.com/dannysievers/go-openai/internal/test/checks"
 )
 
 func TestAPI(t *testing.T) {
