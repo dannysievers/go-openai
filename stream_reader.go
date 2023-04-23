@@ -41,7 +41,6 @@ waitForData:
 	}
 
 	var headerData = []byte("data: ")
-	line = bytes.TrimSpace(line)
 	if !bytes.HasPrefix(line, headerData) {
 		if writeErr := stream.errAccumulator.write(line); writeErr != nil {
 			err = writeErr
